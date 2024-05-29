@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import {Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 
 @Injectable({
@@ -35,7 +36,3 @@ export interface Animal {
   name: string;
   type: any;
 }
-export const environment = {
-  production: false,
-  baseUrlServer: 'TUO_SERVER_URL'
-};
